@@ -1,0 +1,15 @@
+#include <iostream>
+#include <time.h>
+#include <cstdlib>
+#include <vector>
+
+
+
+using namespace std;
+class Burbuja
+{
+public:
+	int i,j;
+
+	void BubbleSort(vector<int> l);
+};

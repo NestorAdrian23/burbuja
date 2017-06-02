@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Burbuja.h
+iostream
+-
+time.h
+-
+cstdlib
+-
+vector
+-
+
+/home/nestoradrian/Burbuja/src/main.cpp
+Burbuja.h
+/home/nestoradrian/Burbuja/src/Burbuja.h
+
